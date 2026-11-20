@@ -1,0 +1,161 @@
+body {
+    background-color: rgb(29, 28, 28);
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#titre {
+    color: gold;
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, serif;
+    background-image: url(images/Élégance\ noire\ et\ dorée\ royale.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+nav ul{
+    color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: gold;
+    text-decoration: underline;
+}
+h1,p,a{
+    color: gold;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.photos img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    cursor: pointer;
+}
+.photos img:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.produits {
+    text-align: center;
+    background-color: black;
+    padding: 30px;
+}
+
+.produits h2 {
+    color: gold;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.carte {
+    background-color: #1a1a1a;
+    border: 1px solid gold;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.carte img {
+    width: 230px;
+    height: 230px;
+    object-fit: contain;
+}
+
+.carte h3 {
+    color: gold;
+}
+
+.carte p {
+    color: white;
+}
+
+.carte button {
+    background-color: black;
+    color: gold;
+    border: 1px solid gold;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.carte button:hover {
+    background-color: gold;
+    color: black;
+}
+
+.footer {
+    background-color: #111;
+    color: white;
+    padding: 40px 20px 15px;
+    border-top: 2px solid gold;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-container div {
+    width: 220px;
+}
+
+.footer h2,
+.footer h3 {
+    color: gold;
+    margin-bottom: 15px;
+}
+
+.footer p {
+    line-height: 1.7;
+    color: #ccc;
+}
+
+.footer a {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.footer a:hover {
+    color: gold;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #444;
+    margin-top: 30px;
+    padding-top: 15px;
+}
